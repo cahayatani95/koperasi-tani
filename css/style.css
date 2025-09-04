@@ -1,5 +1,5 @@
 :root {
-  --primary: #b6895b;
+  --primary: #070342;
   --bg: #010101;
 }
 
@@ -78,7 +78,7 @@ body {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-image: url("..\img\tanaman jagung.jpg");
+  background-image: url("../img/Berau-Jagung2.webp");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -94,7 +94,7 @@ body {
   background: linear-gradient(
     0deg,
     rgba(1, 1, 3, 1) 8%,
-    rgba(80, 233, 9, 0) 50%
+    rgba(66, 4, 121, 0) 50%
   );
 }
 
@@ -105,8 +105,8 @@ body {
 
 .hero .content h1 {
   font-size: 5em;
-  color: #fff;
-  box-shadow: 1px 1px 1px rgba(1, 1, 3, 0);
+  color: #0c0d0b;
+  box-shadow: 1px 1px 1px rgba(0, 0, 5, 0);
   line-height: 1.2;
 }
 
@@ -119,7 +119,7 @@ body {
   margin-top: 1rem;
   line-height: 1.4;
   font-weight: 100;
-  box-shadow: 1px 1px 1px rgba(1, 1, 3, 0.5);
+  box-shadow: 1px 1px 1px rgba(197, 197, 203, 0.5);
   mix-blend-mode: difference;
 }
 
@@ -128,7 +128,7 @@ body {
   display: inline-block;
   padding: 1rem 3rem;
   font-size: 1.4rem;
-  color: #fff;
+  color: #e4e0e8;
   background-color: var(--primary);
   border-radius: 0.5rem;
   box-shadow: 1px 1 px 1px rgba(1, 1, 3, 0.5);
