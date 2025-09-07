@@ -1,269 +1,193 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Cahaya Tani</title>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cahaya Tani</title>
 
-    <!-- Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,700;1,700&display=swap"
-      rel="stylesheet"
-    />
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap" rel="stylesheet" />
 
-    <!-- feather Icons -->
-    <script src="https://unpkg.com/feather-icons"></script>
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
 
-    <!-- my style -->
-    <link rel="stylesheet" href="css/style.css" />
-  </head>
-  <body>
-    <!-- Navbar start -->
-    <nav class="navbar">
-      <a href="#" class="navbar-logo">cahaya<span>tani</span>.</a>
-      <div class="navbar-nav">
-        <a href="#home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu</a>
-        <a href="#contact">Kontak</a>
-      </div>
+  <!-- My Style -->
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <!-- Navbar Start -->
+  <nav class="navbar">
+    <a href="#" class="navbar-logo">cahaya<span>tani</span>.</a>
+    <div class="navbar-nav">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu</a>
+      <a href="#contact">Kontak</a>
+    </div>
+    <div class="navbar-extra">
+      <a href="#" id="search"><i data-feather="search"></i></a>
+      <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
+      <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+    </div>
+  </nav>
+  <!-- Navbar End -->
 
-      <div class="navbar-extra">
-        <a href="#" id="search"><i data-feather="search"></i></a>
-        <a href="#" id="shopping-cart"><i data-feather="shopping-cart"></i></a>
-        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
-      </div>
-    </nav>
-
-    <!-- Navbar end -->
-
-    <!-- Hero sction start -->
-    <section class="hero" id="home">
-      <main class="content">
-        <h1>Mari Nikmati Senja<span> Didepan Koperasi</span></h1>
-        <p>
-          jagung Nasa 29 Adalah jagung varietas unggul baru yang mempunyai kelebihan antara lain:
-          umur genjah/pendek, hasil 12 ton/ha, bisa tongkol dua dan mempunyai rasa yang khas dan enak.
-        </p>
-        <a href="#" class="cta">Beli Sekarang</a>
-      </main>
-    </section>
-    <!-- Hero sction end -->
-
-    <!-- About section start -->
-    <section id="about" class="about">
-      <h2><span> </span> Tentang Kami</h2>
-      <div class="row">
-        <div class="about-img">
-          <img src="img/tan jagung.jpeg" alt="Tentang Kami" />
-        </div>
-
-        <div class="content">
-          <h3>Kenapa Memilih Koperasi Kami?</h3>
-          <p>
-            1. Belanja di koperasi kami berarti belanja dengan hati.
-          <p>
-            2. Setiap pembelian Anda adalah investasi untuk masa depan yang lebih baik.
-          <p>
-            3. Mari bergandengan tangan membangun kemandirian ekonomi yang adil, sehat, dan berkelanjutan.
-          </p>
-          <p>
-            Belanja di koperasi kami berarti mendukung petani, menguatkan UMKM, dan bersama membangun kesejahteraan.
-          </p>
-        </div>
-      </div>
-    </section>
-    <!-- About section end -->
-
-    <!-- Menu section start -->
-
-    <section id="menu" class="menu">
-      <h2><span> </span> Menu Kami</h2>
+  <!-- Hero Section Start -->
+  <section class="hero" id="home">
+    <main class="content">
+      <h1>Mari Nikmati Senja <span>Didepan Koperasi</span></h1>
       <p>
-        
+        Jagung Nasa 29 adalah varietas unggul baru yang mempunyai kelebihan: umur genjah, hasil 12 ton/ha, bisa tongkol dua, dan rasanya khas.
       </p>
-      <div class="row">
-        <div class="menu-card">
-          <img src="img/menu/jagung.jpeg" alt="alam" class="menu-card-img" />
-          <h3 class="menu-card-title">- jagung -</h3>
-          <p class="menu-card-price">IDR 10K</p>
+      <a href="#" class="cta">Beli Sekarang</a>
+    </main>
+  </section>
+  <!-- Hero Section End -->
+
+  <!-- About Section Start -->
+  <section id="about" class="about">
+    <h2>Tentang Kami</h2>
+    <div class="row">
+      <div class="about-img">
+        <img src="img/tan jagung.jpeg" alt="Tentang Kami" />
+      </div>
+      <div class="content">
+        <h3>Kenapa Memilih Koperasi Kami?</h3>
+        <p>1. Belanja di koperasi kami berarti belanja dengan hati.</p>
+        <p>2. Setiap pembelian Anda adalah investasi untuk masa depan yang lebih baik.</p>
+        <p>3. Mari bergandengan tangan membangun kemandirian ekonomi yang adil, sehat, dan berkelanjutan.</p>
+        <p>Belanja di koperasi kami berarti mendukung petani, menguatkan UMKM, dan bersama membangun kesejahteraan.</p>
+      </div>
+    </div>
+  </section>
+  <!-- About Section End -->
+
+  <!-- Menu Section Start -->
+  <section id="menu" class="menu">
+    <h2>Menu Kami</h2>
+    <div class="row">
+      <div class="menu-card">
+        <img src="img/menu/jagung.jpeg" alt="Jagung" class="menu-card-img" />
+        <h3 class="menu-card-title">Jagung Premium</h3>
+        <p class="menu-card-price">IDR 10K</p>
+      </div>
+      <div class="menu-card">
+        <img src="img/menu/jagung.jpeg" alt="Jagung" class="menu-card-img" />
+        <h3 class="menu-card-title">Jagung Biasa</h3>
+        <p class="menu-card-price">IDR 5K</p>
+      </div>
+    </div>
+  </section>
+  <!-- Menu Section End -->
+
+  <!-- Contact Section Start -->
+  <section id="contact" class="contact">
+    <h2>Kontak Kami</h2>
+    <p>Silakan isi form di bawah untuk menghubungi kami.</p>
+    <div class="row">
+      <!-- Google Maps -->
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3944.728205341955!2d116.46848472404633!3d-8.622071087619823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1757242055924!5m2!1sid!2sid"
+        allowfullscreen=""
+        loading="lazy"
+        class="map"
+      ></iframe>
+
+      <!-- Contact Form -->
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLSeU1xoSGdzUV8Ous1Mweww1qscEve1JjUXjRi7e6Ea57bNirg/formResponse"
+        method="POST"
+        target="_blank"
+        id="contactForm"
+      >
+        <div class="input-group">
+          <i data-feather="user"></i>
+          <input type="text" name="entry.1793450906" placeholder="Nama" required />
         </div>
-        <div class="menu-card">
-          <img src="img/menu/jagung.jpeg" alt="indah" class="menu-card-img" />
-          <h3 class="menu-card-title">- jagung -</h3>
-          <p class="menu-card-price">IDR 5K</p>
-      
+        <div class="input-group">
+          <i data-feather="mail"></i>
+          <input type="email" name="entry.980399524" placeholder="Email" required />
         </div>
-      </div>
-    </section>
+        <div class="input-group">
+          <i data-feather="phone"></i>
+          <input type="text" name="entry.453792825" placeholder="No. Telp" />
+        </div>
+        <div class="input-group">
+          <i data-feather="message-square"></i>
+          <textarea name="entry.1905674070" placeholder="Pesan" required></textarea>
+        </div>
+        <button type="submit" id="submitBtn" class="btn">Kirim Pesan</button>
+        <p id="formMessage" class="fade-msg"></p>
+      </form>
+    </div>
+  </section>
+  <!-- Contact Section End -->
 
-    <!-- Menu section end -->
+  <!-- Footer Section Start -->
+  <footer>
+    <div class="social">
+      <a href="https://www.instagram.com/irwan_munazir" target="_blank"><i data-feather="instagram"></i></a>
+      <a href="https://www.facebook.com/irwansmasaker" target="_blank"><i data-feather="facebook"></i></a>
+      <a href="https://www.tiktok.com/@username" target="_blank">
+        <img src="img/tiktok.png" alt="tiktok" class="tiktok-icon">
+      </a>
+    </div>
 
-    <!-- Contact Section Start -->
-    <section id="contact" class="contact">
-      <h2><span> </span> Kontak Kami</h2>
-      <p>
-        Silakan isi form di bawah untuk menghubungi kami.
-      </p>
-      <div class="row">
-        <iframe
-          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d3944.728205341955!2d116.46848472404633!3d-8.622071087619823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sid!2sid!4v1757242055924!5m2!1sid!2sid"
-          allowfullscreen=""
-          loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
-          class="map"
-        ></iframe>
-        <form
-          action="https://docs.google.com/forms/d/e/1FAIpQLSeU1xoSGdzUV8Ous1Mweww1qscEve1JjUXjRi7e6Ea57bNirg/formResponse""
-          method="POST"
-          target="_blank"
-          id="contactForm"
-        >
-          <div class="input-group">
-            <i data-feather="user"></i>
-            <input
-              type="text"
-              name="entry.1793450906"
-              placeholder="nama"
-              required
-            />
-          </div>
-          <div class="input-group">
-            <i data-feather="mail"></i>
-            <input
-              type="email"
-              name="entry.980399524"
-              placeholder="Email"
-              required
-            />
-          </div>
-          <div class="input-group">
-            <i data-feather="phone"></i>
-            <input type="text" name="entry.453792825" placeholder="no-telp" />
-          </div>
-          <div class="input-group">
-            <i data-feather="message-square"></i>
-            <textarea
-              name="entry.1905674070"
-              placeholder="Pesan"
-              required
-            ></textarea>
-          </div>
-         <button type="submit" id="submitBtn" class="btn">Kirim Pesan</button>
-      <p id="formMessage" class="fade-msg"></p>
-    </form>
-  </div>
-</section>
-    <!-- Contact Section End -->
+    <div class="links">
+      <a href="#home">Home</a>
+      <a href="#about">Tentang Kami</a>
+      <a href="#menu">Menu Kami</a>
+      <a href="#contact">Kontak Kami</a>
+    </div>
 
-    <!-- Footer section Start -->
-    <footer>
-      <div class="social">
-        <!-- Instagram (Feather) -->
-        <a href="https://www.instagram.com/irwan_munazir?igsh=ZjQxZDZ3dGxibHdn" target="_blank">
-          <i data-feather="instagram"></i>
-        </a>
+    <div class="credit">
+      <p>Created by <a href="#">IRWAN MUNAZIR</a>. &copy; 2025</p>
+    </div>
+  </footer>
+  <!-- Footer Section End -->
 
-        <!-- Facebook (Feather) -->
-        <a href="https://www.facebook.com/irwansmasaker?locale=id_ID" target="_blank">
-          <i data-feather="facebook"></i>
-        </a>
+  <!-- Feather Icons Init -->
+  <script>feather.replace();</script>
 
-        <!-- tiktok (pakai file lokal) -->
-<a href="https://www.tiktok.com/@username" target="_blank" aria-label="tiktok">
-  <img src="img/tiktok.png" alt="tiktok" class="tiktok-icon">
-</a>
+  <!-- Navbar Toggle JS -->
+  <script src="js/script.js"></script>
 
-      </div>
+  <!-- Contact Form JS -->
+  <script>
+    const form = document.getElementById("contactForm");
+    const msg = document.getElementById("formMessage");
+    const btn = document.getElementById("submitBtn");
 
-      <div class="links">
-        <a href="#home">Home</a>
-        <a href="#about">Tentang Kami</a>
-        <a href="#menu">Menu Kami</a>
-        <a href="#contact">Kontak Kami</a>
-      </div>
+    form.addEventListener("submit", function (e) {
+      e.preventDefault();
+      const formData = new FormData(form);
 
-      <div class="credit">
-        <p>created by <a href="">IRWAN MUNAZIR</a>. &copy; 2025</p>
-      </div>
-    </footer>
-    <!-- Footer section End -->
+      btn.disabled = true;
+      btn.textContent = "Mengirim...";
 
-
-    <script>
-      feather.replace();
-    </script>
-
-    <!-- My Javascript -->
-    <script src="js/script.js"></script>
-  
-    <script>
-  const form = document.getElementById("contactForm");
-  const msg = document.getElementById("formMessage");
-
-  form.addEventListener("submit", function (e) {
-    e.preventDefault(); // cegah pindah halaman
-
-    const formData = new FormData(form);
-
-    fetch("https://docs.google.com/forms/d/e/1FAIpQLSeU1xoSGdzUV8Ous1Mweww1qscEve1JjUXjRi7e6Ea57bNirg/formResponse", {
-      method: "POST",
-      body: formData,
-      mode: "no-cors"
-    })
-    .then(() => {
-      msg.style.display = "block"; // tampilkan pesan sukses
-      form.reset(); // kosongkan form
-    })
-    .catch(() => {
-      msg.style.display = "block";
-      msg.style.color = "red";
-      msg.textContent = "❌ Gagal mengirim, coba lagi!";
+      fetch(form.action, {
+        method: "POST",
+        body: formData,
+        mode: "no-cors"
+      })
+      .then(() => {
+        msg.textContent = "✅ Pesan berhasil dikirim!";
+        msg.style.color = "lightgreen";
+        msg.classList.add("show");
+        form.reset();
+      })
+      .catch(() => {
+        msg.textContent = "❌ Gagal mengirim, coba lagi!";
+        msg.style.color = "red";
+        msg.classList.add("show");
+      })
+      .finally(() => {
+        btn.disabled = false;
+        btn.textContent = "Kirim Pesan";
+      });
     });
-  });
-</script>
-
-<!-- JavaScript (tombol loading + pesan sukses/error) -->
-
-<script>
-  const form = document.getElementById("contactForm");
-  const msg = document.getElementById("formMessage");
-  const btn = document.getElementById("submitBtn");
-
-  form.addEventListener("submit", function (e) {
-    e.preventDefault();
-
-    const formData = new FormData(form);
-
-    // Ubah tombol jadi "Mengirim..."
-    btn.disabled = true;
-    btn.textContent = "Mengirim...";
-
-    fetch(form.action, {
-      method: "POST",
-      body: formData,
-      mode: "no-cors"
-    })
-    .then(() => {
-      msg.textContent = "✅ Pesan berhasil dikirim!";
-      msg.style.color = "lightgreen";
-      msg.classList.add("show");
-      form.reset();
-    })
-    .catch(() => {
-      msg.textContent = "❌ Gagal mengirim, coba lagi!";
-      msg.style.color = "red";
-      msg.classList.add("show");
-    })
-    .finally(() => {
-      btn.disabled = false;
-      btn.textContent = "Kirim Pesan";
-    });
-  });
-</script>
-
-
-  </body>
+  </script>
+</body>
 </html>
